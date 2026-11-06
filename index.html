@@ -1,0 +1,1339 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elaris Creative Studio | Bespoke Visual Identity & Digital Precision</title>
+  <meta name="description" content="Elaris Creative Studio (PT Elaris Indonesia) - Studio desain kreatif independen untuk identitas brand kustom, UI/UX presisi, kemasan taktil, dan creative retainer.">
+  
+  <!-- Google Fonts Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Studio Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Ambient Cursor Glow Effect -->
+  <div id="ambient-glow" class="ambient-glow"></div>
+
+  <!-- ==========================================================================
+       TOP NAVIGATION BAR
+       ========================================================================== -->
+  <header id="site-nav" class="site-nav">
+    <div class="container nav-container">
+      <a href="#" class="brand-logo" aria-label="Elaris Creative Studio Home">
+        <div class="brand-symbol">E</div>
+        <div class="brand-text">
+          <span class="brand-name">ELARIS</span>
+          <span class="brand-sub">Creative Studio</span>
+        </div>
+      </a>
+
+      <!-- Navigation Links -->
+      <nav id="nav-links" class="nav-links">
+        <a href="#values" class="nav-link" data-i18n="nav.values">Nilai Utama</a>
+        <a href="#solutions" class="nav-link" data-i18n="nav.solutions">Solusi Klien</a>
+        <a href="#portfolio" class="nav-link" data-i18n="nav.portfolio">Portofolio</a>
+        <a href="#services" class="nav-link" data-i18n="nav.services">Layanan</a>
+        <a href="#process" class="nav-link" data-i18n="nav.process">Alur Kerja</a>
+        <a href="#estimator" class="nav-link" data-i18n="nav.estimator">Kalkulator Biaya</a>
+        <a href="#bmc" class="nav-link" data-i18n="nav.bmc">Cetak Biru Studio</a>
+      </nav>
+
+      <!-- Navigation Controls (Lang, Theme, CTA) -->
+      <div class="nav-actions">
+        <!-- Language Switcher -->
+        <div class="lang-switch" role="group" aria-label="Language selection">
+          <button class="lang-btn active" data-lang="id" aria-label="Bahasa Indonesia">ID</button>
+          <button class="lang-btn" data-lang="en" aria-label="English">EN</button>
+        </div>
+
+        <!-- Dark / Light Theme Toggle -->
+        <button id="theme-toggle-btn" class="icon-btn" aria-label="Toggle theme mode">
+          <span id="theme-icon">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="5"/>
+              <line x1="12" y1="1" x2="12" y2="3"/>
+              <line x1="12" y1="21" x2="12" y2="23"/>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+              <line x1="1" y1="12" x2="3" y2="12"/>
+              <line x1="21" y1="12" x2="23" y2="12"/>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+            </svg>
+          </span>
+        </button>
+
+        <a href="#contact" class="btn btn-primary btn-sm" data-i18n="nav.contact">Mulai Proyek</a>
+
+        <!-- Mobile Drawer Menu Toggle -->
+        <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       HERO SECTION
+       ========================================================================== -->
+  <main>
+    <section class="hero-section">
+      <div class="hero-bg-graphic"></div>
+      <div class="container hero-grid">
+        <!-- Hero Text Content -->
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="pulse-dot"></span>
+            <span data-i18n="hero.badge">ELARIS CREATIVE STUDIO • PT ELARIS INDONESIA</span>
+          </div>
+
+          <h1 class="hero-title" data-i18n="hero.title">
+            Membangun Citra Brand Melalui <span class="highlight">Desain Kustom</span> & Presisi Digital.
+          </h1>
+
+          <p class="hero-description" data-i18n="hero.desc">
+            Solusi visual berkarakter, produk digital bereputasi tinggi, dan desain kemasan taktil untuk UMKM, korporat B2B, dan pemilik merek. Bukan template pasaran. 100% orisinal dan terstruktur.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#estimator" class="btn btn-primary" data-i18n="hero.ctaPrimary">
+              Hitung Estimasi Proyek
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+            <a href="#portfolio" class="btn btn-outline" data-i18n="hero.ctaSecondary">
+              Lihat Portofolio
+            </a>
+          </div>
+
+          <!-- Hero Metrics -->
+          <div class="hero-metrics">
+            <div class="metric-item">
+              <span class="metric-value">100<span>%</span></span>
+              <span class="metric-label" data-i18n="hero.stat1Label">Desain Kustom Orisinal</span>
+            </div>
+            <div class="metric-item">
+              <span class="metric-value">99.4<span>%</span></span>
+              <span class="metric-label" data-i18n="hero.stat2Label">Tepat Waktu Sesuai Deadline</span>
+            </div>
+            <div class="metric-item">
+              <span class="metric-value">48<span>Jam</span></span>
+              <span class="metric-label" data-i18n="hero.stat3Label">Kickoff Proyek Cepat</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Showcase Card -->
+        <div class="hero-card-wrapper">
+          <!-- Floating Badge Top Left -->
+          <div class="floating-chip top-left">
+            <div class="chip-icon">✦</div>
+            <div class="chip-text">
+              <h4>Bespoke Design</h4>
+              <p>Not Template-Based</p>
+            </div>
+          </div>
+
+          <!-- Central Preview Card -->
+          <div class="hero-preview-card">
+            <div class="preview-header">
+              <div class="window-dots">
+                <span></span><span></span><span></span>
+              </div>
+              <span class="preview-tag">ELARIS // DESIGN_SYSTEM_V2.6</span>
+            </div>
+
+            <div class="preview-visual">
+              <div class="design-system-preview">
+                <div style="display:flex; justify-content:space-between; align-items:center;">
+                  <span style="font-size:0.78rem; text-transform:uppercase; letter-spacing:0.06em; color:var(--text-dim); font-weight:700;">Color Harmony & Palette</span>
+                  <span style="font-size:0.75rem; color:var(--accent-gold); font-family:var(--font-mono);">HEX / CMYK Calibrated</span>
+                </div>
+                <div class="palette-bar">
+                  <span class="c1" title="#0D0A11"></span>
+                  <span class="c2" title="#26162A"></span>
+                  <span class="c3" title="#9D174D"></span>
+                  <span class="c4" title="#F472B6"></span>
+                  <span class="c5" title="#FDF2F8"></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="preview-details">
+              <div class="preview-pill">
+                <span class="preview-pill-title">Deliverables</span>
+                <span class="preview-pill-val">AI • Figma • SVG • PDF</span>
+              </div>
+              <div class="preview-pill">
+                <span class="preview-pill-title">Sprint Cycle</span>
+                <span class="preview-pill-val">Milestone & QC Verified</span>
+              </div>
+            </div>
+
+            <div class="preview-footer">
+              <span>Client Sprint: <strong>Active Phase 3</strong></span>
+              <span class="status-badge">QC Passed</span>
+            </div>
+          </div>
+
+          <!-- Floating Badge Bottom Right -->
+          <div class="floating-chip bottom-right">
+            <div class="chip-icon">❖</div>
+            <div class="chip-text">
+              <h4>Multi-Format Handover</h4>
+              <p>Print CMYK & Digital Web</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         PARTNERS & STRATEGIC ECOSYSTEM BAND (BMC KEY PARTNERS & CHANNELS)
+         ========================================================================== -->
+    <div class="partners-band">
+      <div class="container">
+        <p class="partners-heading">Eksosistem Kolaboratif & Rekanan Strategis Elaris</p>
+        <div class="partners-logos">
+          <span class="partner-logo-item">AGENCY PARTNERS</span>
+          <span class="partner-logo-item">LOGISTICS & EXPEDITION</span>
+          <span class="partner-logo-item">CERTIFIED PRINT HOUSES</span>
+          <span class="partner-logo-item">FIGMA & ADOBE SUITE</span>
+          <span class="partner-logo-item">NOTION / CLICKUP WORKFLOW</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==========================================================================
+         VALUE PROPOSITIONS (THE 4 CORE PILLARS OF ELARIS BMC)
+         ========================================================================== -->
+    <section id="values" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge" data-i18n="values.badge">Pilar Utama Kami</span>
+          <h2 class="section-title" data-i18n="values.title">Dibangun di Atas Presisi, Karakter & Transparansi</h2>
+          <p class="section-subtitle" data-i18n="values.subtitle">
+            Dituangkan langsung dari Business Model Canvas Elaris: empat komitmen mutlak yang membedakan kami dari agensi konvensional.
+          </p>
+        </div>
+
+        <div class="values-grid">
+          <!-- Pillar 1: Desain Kustom & Berkarakter -->
+          <article class="value-card">
+            <div class="value-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
+            <h3 class="value-card-title" data-i18n="values.card1Title">Desain Kustom & Berkarakter</h3>
+            <p class="value-card-desc" data-i18n="values.card1Desc">
+              Solusi visual yang disesuaikan khusus dengan identitas dan target pasar klien. Bukan template instan atau salinan generik.
+            </p>
+            <div class="value-card-footer">
+              <span>Bespoke DNA</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </div>
+          </article>
+
+          <!-- Pillar 2: Proses Cepat & Tepat Waktu -->
+          <article class="value-card">
+            <div class="value-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <h3 class="value-card-title" data-i18n="values.card2Title">Proses Cepat & Tepat Waktu</h3>
+            <p class="value-card-desc" data-i18n="values.card2Desc">
+              Penjadwalan pengerjaan terstruktur dalam format sprint terukur demi memastikan kesepakatan deadline peluncuran selalu terpenuhi.
+            </p>
+            <div class="value-card-footer">
+              <span>Fast Turnaround</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </div>
+          </article>
+
+          <!-- Pillar 3: Revisi Transparan & Terkontrol -->
+          <article class="value-card">
+            <div class="value-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            </div>
+            <h3 class="value-card-title" data-i18n="values.card3Title">Revisi Transparan & Terkontrol</h3>
+            <p class="value-card-desc" data-i18n="values.card3Desc">
+              Pedoman dan batasan revisi yang jelas didukung kendali mutu (Quality Control) ketat tanpa mengorbankan standar estetika akhir.
+            </p>
+            <div class="value-card-footer">
+              <span>Controlled QC</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </div>
+          </article>
+
+          <!-- Pillar 4: Format File Lengkap & Siap Pakai -->
+          <article class="value-card">
+            <div class="value-icon-box">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 16 12 12 8 16"/><line x1="12" y1="12" x2="12" y2="21"/><path d="M20.39 18.39A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.3"/></svg>
+            </div>
+            <h3 class="value-card-title" data-i18n="values.card4Title">Format File Lengkap & Siap Pakai</h3>
+            <p class="value-card-desc" data-i18n="values.card4Desc">
+              Penyerahan berkas master lengkap (Figma, AI/EPS, SVG web) serta berkas siap cetak berkalibrasi warna CMYK (PDF, TIFF, PNG high-res).
+            </p>
+            <div class="value-card-footer">
+              <span>Ready-to-Deploy</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         CUSTOMER SEGMENTS & TARGETED SOLUTIONS (BMC SEGMENTS)
+         ========================================================================== -->
+    <section id="solutions" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge" data-i18n="segments.badge">Solusi Berdasarkan Segmen</span>
+          <h2 class="section-title" data-i18n="segments.title">Dirancang Spesifik untuk Tiap Kebutuhan Bisnis</h2>
+          <p class="section-subtitle" data-i18n="segments.subtitle">
+            Dari merintis brand baru hingga pembaruan citra korporat multinasional, kami menyediakan arsitektur visual yang tepat sasaran.
+          </p>
+        </div>
+
+        <div class="segments-wrapper">
+          <!-- Segment Tabs Navigation -->
+          <div class="segment-tabs-nav" role="tablist">
+            <button class="segment-tab-btn active" data-target="seg-startup" role="tab" aria-selected="true">
+              <span>🚀</span> UMKM & Startups
+            </button>
+            <button class="segment-tab-btn" data-target="seg-corporate" role="tab" aria-selected="false">
+              <span>🏢</span> Perusahaan & Korporat B2B
+            </button>
+            <button class="segment-tab-btn" data-target="seg-packaging" role="tab" aria-selected="false">
+              <span>📦</span> Pemilik Merek (Brand Owners)
+            </button>
+            <button class="segment-tab-btn" data-target="seg-creators" role="tab" aria-selected="false">
+              <span>✨</span> Individu & Content Creators
+            </button>
+          </div>
+
+          <!-- Tab Panel 1: UMKM & Startup -->
+          <div id="seg-startup" class="segment-panel active" role="tabpanel">
+            <div class="segment-info">
+              <h3>Fondasi Visual Kokoh untuk Peluncuran Cepat</h3>
+              <p>
+                Bisnis baru membutuhkan identitas visual yang profesional dari hari pertama agar dapat memenangkan kepercayaan investor dan konsumen. Kami merancang fondasi visual menyeluruh yang siap dipakai di seluruh saluran pemasaran.
+              </p>
+              <div class="segment-deliverables">
+                <div class="deliverable-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Brand Identity Kit & Logo Suite</span>
+                </div>
+                <div class="deliverable-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Pedoman Brand Guidelines Digital</span>
+                </div>
+                <div class="deliverable-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Desain UI/UX MVP Web & Mobile</span>
+                </div>
+                <div class="deliverable-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Materi Pitch Deck & Social Kit</span>
+                </div>
+              </div>
+              <a href="#contact" class="btn btn-primary btn-sm">Mulai Paket Startup</a>
+            </div>
+
+            <div class="segment-visual-box">
+              <div class="segment-spec-list">
+                <div class="spec-item">
+                  <span class="spec-label">Ideal For</span>
+                  <div class="spec-value">Bisnis baru, founder, tech startup, & UMKM naik kelas</div>
+                </div>
+                <div class="spec-item">
+                  <span class="spec-label">Sprint Duration</span>
+                  <div class="spec-value">2 - 3 Minggu (Terkontrol & Tepat Waktu)</div>
+                </div>
+                <div class="spec-item">
+                  <span class="spec-label">Collaborative Tools</span>
+                  <div class="spec-value">Figma Cloud, Notion Workspace, Google Meet</div>
+                </div>
+                <div class="spec-item">
+                  <span class="spec-label">Handover Files</span>
+                  <div class="spec-value">Vector SVG, AI, EPS, High-Res PNG, PDF Guide</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tab Panel 2: Corporate B2B -->
+          <div id="seg-corporate" class="segment-panel" role="tabpanel">
+            <div class="segment-info">
+              <h3>Rebranding Korporat & Standarisasi Citra Menyeluruh</h3>
+              <p>
+                Perusahaan mapan yang memerlukan modernisasi citra publik (rebranding) atau materi pemasaran rutin skala besar. Kami memastikan konsistensi citra di seluruh divisi, armada, dan media promosi internasional.
+              </p>
+              <div class="segment-deliverables">
+                <div class="deliverable-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Rebranding Strategy & Brand Architecture</span>
+                </div>
+                <div class="deliverable-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Enterprise Design System (Figma)</span>
+                </div>
+                <div class="deliverable-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Materi Pemasaran B2B & Annual Reports</span>
+                </div>
+                <div class="deliverable-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Dedicated B2B Account Manager</span>
+                </div>
+              </div>
+              <a href="#contact" class="btn btn-primary btn-sm">Konsultasi Rebranding</a>
+            </div>
+
+            <div class="segment-visual-box">
+              <div class="segment-spec-list">
+                <div class="spec-item">
+                  <span class="spec-label">Ideal For</span>
+                  <div class="spec-value">Perusahaan B2B, logistik, industri, & grup korporat</div>
+                </div>
+                <div class="spec-item">
+                  <span class="spec-label">Sprint Duration</span>
+                  <div class="spec-value">4 - 8 Minggu / Monthly Creative Retainer</div>
+                </div>
+                <div class="spec-item">
+                  <span class="spec-label">Governance</span>
+                  <div class="spec-value">Dedicated PM, SLA Terikat Kontrak PT Elaris Indonesia</div>
+                </div>
+                <div class="spec-item">
+                  <span class="spec-label">Handover Files</span>
+                  <div class="spec-value">Design Tokens, Vector Assets, Print CMYK Calibrated</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tab Panel 3: Brand Owners & Packaging -->
+          <div id="seg-packaging" class="segment-panel" role="tabpanel">
+            <div class="segment-info">
+              <h3>Desain Kemasan Taktil dengan Standar Uji Durabilitas</h3>
+              <p>
+                Pemilik merek produk konsumen (FMCG, kecantikan, makanan & minuman) yang butuh kemasan berdaya tarik tinggi di rak toko sekaligus teruji secara fisik di lapangan bersama mitra logistik kami.
+              </p>
+              <div class="segment-deliverables">
+                <div class="deliverable-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Pola Kemasan & Dieline Engineering</span>
+                </div>
+                <div class="deliverable-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Visualisasi 3D Photorealistic Mockup</span>
+                </div>
+                <div class="deliverable-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Supervisi Cetak & Quality Control Percetakan</span>
+                </div>
+                <div class="deliverable-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Materi Promosi & Aset Media Sosial</span>
+                </div>
+              </div>
+              <a href="#contact" class="btn btn-primary btn-sm">Mulai Desain Kemasan</a>
+            </div>
+
+            <div class="segment-visual-box">
+              <div class="segment-spec-list">
+                <div class="spec-item">
+                  <span class="spec-label">Ideal For</span>
+                  <div class="spec-value">FMCG, Skincare/Cosmetics, Specialty F&B, E-Commerce</div>
+                </div>
+                <div class="spec-item">
+                  <span class="spec-label">Field Testing</span>
+                  <div class="spec-value">Uji fisik & logistik bersama mitra pengantar Elaris</div>
+                </div>
+                <div class="spec-item">
+                  <span class="spec-label">Printing Management</span>
+                  <div class="spec-value">Koordinasi foil, emboss, spot UV bersama mitra percetakan</div>
+                </div>
+                <div class="spec-item">
+                  <span class="spec-label">Handover Files</span>
+                  <div class="spec-value">Dieline AI, CMYK 300+ DPI, 3D Renders, Spec Sheet</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tab Panel 4: Creators & Individuals -->
+          <div id="seg-creators" class="segment-panel" role="tabpanel">
+            <div class="segment-info">
+              <h3>Identitas Personal Artistik & Berkelas Internasional</h3>
+              <p>
+                Kreator konten, public figure, dan konsultan profesional yang memerlukan visual personal berstandar editorial. Menggabungkan tipografi elegan dan tata letak dinamis untuk memperkuat kredibilitas.
+              </p>
+              <div class="segment-deliverables">
+                <div class="deliverable-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Personal Brand Mark & Monogram</span>
+                </div>
+                <div class="deliverable-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Editorial Portfolio & Personal Website UI</span>
+                </div>
+                <div class="deliverable-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Template Media Sosial & Substack / Newsletter</span>
+                </div>
+                <div class="deliverable-item">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  <span>Media Kit & Proposal Kolaborasi Brand</span>
+                </div>
+              </div>
+              <a href="#contact" class="btn btn-primary btn-sm">Mulai Personal Branding</a>
+            </div>
+
+            <div class="segment-visual-box">
+              <div class="segment-spec-list">
+                <div class="spec-item">
+                  <span class="spec-label">Ideal For</span>
+                  <div class="spec-value">Kreator, fotografer, arsitek, konsultan independen</div>
+                </div>
+                <div class="spec-item">
+                  <span class="spec-label">Sprint Duration</span>
+                  <div class="spec-value">1 - 2 Minggu (Sprint Terarah)</div>
+                </div>
+                <div class="spec-item">
+                  <span class="spec-label">Art Direction</span>
+                  <div class="spec-value">1-on-1 bersama Lead Visual Strategist Elaris</div>
+                </div>
+                <div class="spec-item">
+                  <span class="spec-label">Handover Files</span>
+                  <div class="spec-value">Typography license guide, vector suite, ready-to-post kits</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         PORTFOLIO & SELECTED CASE STUDIES
+         ========================================================================== -->
+    <section id="portfolio" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Portofolio Pilihan</span>
+          <h2 class="section-title">Karya yang Menggabungkan Estetika & Nilai Bisnis</h2>
+          <p class="section-subtitle">
+            Kumpulan proyek pilihan yang dikerjakan secara orisinal dengan penekanan pada dampak nyata bagi klien kami.
+          </p>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="portfolio-filter" role="group" aria-label="Portfolio category filter">
+          <button class="filter-btn active" data-filter="all">Semua Karya</button>
+          <button class="filter-btn" data-filter="branding">Identitas Brand</button>
+          <button class="filter-btn" data-filter="uiux">UI/UX Digital</button>
+          <button class="filter-btn" data-filter="packaging">Desain Kemasan</button>
+          <button class="filter-btn" data-filter="retainer">Retainer Kreatif</button>
+        </div>
+
+        <!-- Dynamic Grid Container -->
+        <div id="portfolio-grid" class="portfolio-grid">
+          <!-- Rendered via JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SERVICES & REVENUE STREAMS (BMC ACTIVITIES & REVENUE)
+         ========================================================================== -->
+    <section id="services" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Layanan Studio</span>
+          <h2 class="section-title">Solusi Komprehensif dari Konsep Hingga Eksekusi</h2>
+          <p class="section-subtitle">
+            Model kerja sama fleksibel yang mencakup proyek berbasis kontrak, langganan bulanan (retainer), serta supervisi produksi cetak.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Service 1 -->
+          <article class="service-card">
+            <span class="service-num">01 // PROJECT-BASED</span>
+            <h3 class="service-title">Identitas Visual & Brand Guidelines</h3>
+            <p class="service-desc">
+              Pembangunan logo suite, sistem tipografi, tata warna psikologis, dan buku pedoman identitas brand komprehensif agar citra konsisten di setiap touchpoint.
+            </p>
+            <div class="service-features">
+              <div class="service-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Master Logo (Primary, Secondary, Monogram)</span>
+              </div>
+              <div class="service-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Panduan Lengkap (PDF + Figma Source)</span>
+              </div>
+              <div class="service-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Aset Vektor SVG, AI, EPS & High-Res PNG</span>
+              </div>
+            </div>
+            <span class="service-model-badge">Project-Based Contract</span>
+          </article>
+
+          <!-- Service 2 -->
+          <article class="service-card">
+            <span class="service-num">02 // DIGITAL PRODUCT</span>
+            <h3 class="service-title">UI/UX & Desain Web Interaktif</h3>
+            <p class="service-desc">
+              Desain antarmuka pengguna web dan mobile dengan hierarki visual terarah, prototipe interaktif di Figma, dan kepatuhan standar aksesibilitas WCAG.
+            </p>
+            <div class="service-features">
+              <div class="service-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Wireframing & Alur Pengguna (User Journey)</span>
+              </div>
+              <div class="service-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Design System & Modular Component Library</span>
+              </div>
+              <div class="service-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Prototipe Responsif Mobile, Tablet, & Desktop</span>
+              </div>
+            </div>
+            <span class="service-model-badge">Project-Based Contract</span>
+          </article>
+
+          <!-- Service 3 -->
+          <article class="service-card">
+            <span class="service-num">03 // TACTILE PACKAGING</span>
+            <h3 class="service-title">Desain Kemasan & Dieline Engineering</h3>
+            <p class="service-desc">
+              Perancangan struktur kemasan, pola potong (dieline), pemilihan material ramah lingkungan, serta rendering visual 3D untuk daya tarik rak ritel.
+            </p>
+            <div class="service-features">
+              <div class="service-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Pola Dieline Presisi Siap Potong</span>
+              </div>
+              <div class="service-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Visualisasi 3D Photorealistic & Label Specs</span>
+              </div>
+              <div class="service-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Uji Ketahanan bersama Mitra Logistik</span>
+              </div>
+            </div>
+            <span class="service-model-badge">Packaging & Structural</span>
+          </article>
+
+          <!-- Service 4 -->
+          <article class="service-card">
+            <span class="service-num">04 // RETAINER FEE</span>
+            <h3 class="service-title">Layanan Langganan Bulanan (Retainer)</h3>
+            <p class="service-desc">
+              Akses tim desain kreatif on-demand (Art Director, Motion & Graphic Designer) dengan alokasi jam tetap per bulan untuk kebutuhan materi rutin harian.
+            </p>
+            <div class="service-features">
+              <div class="service-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Materi Iklan Digital & Social Media Harian</span>
+              </div>
+              <div class="service-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Dedicated PM & Koordinasi via Slack / Notion</span>
+              </div>
+              <div class="service-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Prioritas Antrean Revisi & Quality Control</span>
+              </div>
+            </div>
+            <span class="service-model-badge">Monthly Retainer Agreement</span>
+          </article>
+
+          <!-- Service 5 -->
+          <article class="service-card">
+            <span class="service-num">05 // STRATEGY AUDIT</span>
+            <h3 class="service-title">Konsultasi Desain & Audit Branding</h3>
+            <p class="service-desc">
+              Sesi konsultasi intensif untuk menganalisis performa identitas visual Anda, positioning kompetitor, dan audit UX produk digital guna perbaikan strategis.
+            </p>
+            <div class="service-features">
+              <div class="service-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Laporan Komprehensif Audit Visual & Heuristik</span>
+              </div>
+              <div class="service-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Rekomendasi Roadmap Transformasi Brand</span>
+              </div>
+              <div class="service-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Sesi Diskusi 1-on-1 dengan Creative Director</span>
+              </div>
+            </div>
+            <span class="service-model-badge">Consultation Fee</span>
+          </article>
+
+          <!-- Service 6 -->
+          <article class="service-card">
+            <span class="service-num">06 // PRODUCTION MANAGEMENT</span>
+            <h3 class="service-title">Manajemen Cetak & Pengawasan Produksi</h3>
+            <p class="service-desc">
+              Pengelolaan pencetakan end-to-end bersama mitra percetakan terpercaya. Kami memastikan kalibrasi warna CMYK, jenis kertas, foil, dan finishing sempurna.
+            </p>
+            <div class="service-features">
+              <div class="service-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Proofing Warna & Kalibrasi Mesin Cetak</span>
+              </div>
+              <div class="service-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Quality Control (QC) Fisik di Lapangan</span>
+              </div>
+              <div class="service-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Koordinasi Logistik Pengiriman Hasil Cetak</span>
+              </div>
+            </div>
+            <span class="service-model-badge">Printing Management Margin</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         WORKFLOW & COLLABORATIVE PROCESS (KEY ACTIVITIES & RELATIONSHIPS)
+         ========================================================================== -->
+    <section id="process" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Alur Kerja Kolaboratif</span>
+          <h2 class="section-title">Sistem Kerja Sprint yang Terukur & Transparan</h2>
+          <p class="section-subtitle">
+            Alur kerja yang didesain untuk menghilangkan ketidakpastian dengan transparansi progres di setiap fase pengerjaan.
+          </p>
+        </div>
+
+        <div class="workflow-stepper">
+          <!-- Step 1 -->
+          <div class="step-card">
+            <div class="step-indicator">1</div>
+            <span class="step-phase">Fase 01</span>
+            <h4 class="step-title">Riset & Konsep</h4>
+            <p class="step-desc">
+              Menggali ide kreatif, profiling audiens, pemetaan pasar, dan penyusunan arah visual (moodboard) sesuai brief awal klien.
+            </p>
+            <div class="step-tooling">Notion • Figma FigJam • Miro</div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="step-card">
+            <div class="step-indicator">2</div>
+            <span class="step-phase">Fase 02</span>
+            <h4 class="step-title">Desain & Kreasi</h4>
+            <p class="step-desc">
+              Eksekusi teknis pembuatan identitas visual, pola kemasan, atau prototipe UI/UX interaktif secara spesifik dan orisinal.
+            </p>
+            <div class="step-tooling">Adobe Illustrator • Figma • 3D Blender</div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="step-card">
+            <div class="step-indicator">3</div>
+            <span class="step-phase">Fase 03</span>
+            <h4 class="step-title">Revisi & QC</h4>
+            <p class="step-desc">
+              Review transparan bersama klien, revisi terukur, dan Quality Control ketat untuk menjamin nilai estetika dan standar teknis tinggi.
+            </p>
+            <div class="step-tooling">ClickUp • Slack • Loom Sync</div>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="step-card">
+            <div class="step-indicator">4</div>
+            <span class="step-phase">Fase 04</span>
+            <h4 class="step-title">Serah Terima & Cetak</h4>
+            <p class="step-desc">
+              Penyerahan seluruh file master siap pakai serta koordinasi langsung dengan mitra percetakan untuk hasil akhir berkalibrasi tinggi.
+            </p>
+            <div class="step-tooling">Cloud Storage • CMYK Dielines • Master Kit</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         INTERACTIVE PROJECT ESTIMATOR (PROJECT VS RETAINER PRICING)
+         ========================================================================== -->
+    <section id="estimator" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge" data-i18n="estimator.badge">Transparansi Biaya</span>
+          <h2 class="section-title" data-i18n="estimator.title">Kalkulator Estimasi Lingkup & Investasi Proyek</h2>
+          <p class="section-subtitle" data-i18n="estimator.subtitle">
+            Pilih model proyek atau skema langganan bulanan (retainer) untuk mendapatkan kalkulasi estimasi investasi secara langsung.
+          </p>
+        </div>
+
+        <div class="estimator-container">
+          <!-- Model Switcher (Project vs Retainer) -->
+          <div class="estimator-model-switch">
+            <div class="model-option-card active" data-model="project">
+              <h4 data-i18n="estimator.projectTab">Proyek Berbasis Kontrak</h4>
+              <p>Pembayaran bertahap sesuai milestone proyek spesifik</p>
+            </div>
+            <div class="model-option-card" data-model="retainer">
+              <h4 data-i18n="estimator.retainerTab">Layanan Langganan Bulanan (Retainer)</h4>
+              <p>Alokasi tim kreatif terdedikasi per bulan</p>
+            </div>
+          </div>
+
+          <!-- Estimator Interactive Controls & Summary Grid -->
+          <div class="estimator-grid">
+            <!-- Controls Column -->
+            <div class="estimator-controls">
+              <!-- Project Model Controls -->
+              <div id="project-controls" style="display: flex; flex-direction: column; gap: 24px;">
+                <!-- Service Choice -->
+                <div class="control-group">
+                  <label>Pilih Layanan Utama</label>
+                  <div class="options-pill-grid">
+                    <div class="option-chip service-chip selected" data-service="brand-identity">
+                      <span>Identitas Brand & Guidelines</span>
+                      <span>✦</span>
+                    </div>
+                    <div class="option-chip service-chip" data-service="uiux-design">
+                      <span>UI/UX Web & Aplikasi</span>
+                      <span>✦</span>
+                    </div>
+                    <div class="option-chip service-chip" data-service="packaging">
+                      <span>Kemasan Taktil & Dieline</span>
+                      <span>✦</span>
+                    </div>
+                    <div class="option-chip service-chip" data-service="rebranding">
+                      <span>Rebranding Korporat Menyeluruh</span>
+                      <span>✦</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Turnaround Timeline Slider -->
+                <div class="control-group">
+                  <label>Jadwal Pengerjaan (Sprint Velocity): <span id="speed-label" style="color:var(--accent-gold); font-weight:700;">Standar Terjadwal (3-4 Minggu)</span></label>
+                  <div class="range-slider-wrapper">
+                    <input id="speed-slider" type="range" min="1" max="3" step="1" value="2" aria-label="Turnaround speed slider">
+                    <div class="range-scale-labels">
+                      <span>Ekspres (Fast-Track)</span>
+                      <span>Standar Sprint</span>
+                      <span>Komprehensif Enterprise</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Additional Deliverables & Add-ons -->
+                <div class="control-group">
+                  <label>Modul & Ekstra Tambahan</label>
+                  <div class="options-pill-grid">
+                    <div class="option-chip extra-chip" data-extra="print-management">
+                      <span>Supervisi Cetak & Uji Lapangan</span>
+                      <span>+</span>
+                    </div>
+                    <div class="option-chip extra-chip" data-extra="tokens-design-system">
+                      <span>Design System Figma Tokens</span>
+                      <span>+</span>
+                    </div>
+                    <div class="option-chip extra-chip" data-extra="motion-kit">
+                      <span>Animasi Logo & Motion Promo</span>
+                      <span>+</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Retainer Model Controls -->
+              <div id="retainer-controls" style="display: none; flex-direction: column; gap: 24px;">
+                <div class="control-group">
+                  <label>Pilih Skala Alokasi Retainer Bulanan</label>
+                  <div class="options-pill-grid">
+                    <div class="option-chip retainer-tier-chip" data-tier="starter">
+                      <div>
+                        <strong>Starter Studio</strong>
+                        <div style="font-size:0.75rem; color:var(--text-muted);">20 Jam/bln • Graphic Designer</div>
+                      </div>
+                    </div>
+                    <div class="option-chip retainer-tier-chip selected" data-tier="growth">
+                      <div>
+                        <strong>Growth Brand</strong>
+                        <div style="font-size:0.75rem; color:var(--text-muted);">40 Jam/bln • Art Director + Motion + UI/UX</div>
+                      </div>
+                    </div>
+                    <div class="option-chip retainer-tier-chip" data-tier="enterprise">
+                      <div>
+                        <strong>Enterprise Partner</strong>
+                        <div style="font-size:0.75rem; color:var(--text-muted);">Dedicated Pod • Koordinasi Harian</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Summary Output Column -->
+            <div class="estimator-summary-card">
+              <div class="est-summary-header">
+                <span class="preview-tag">ESTIMATED INVESTMENT</span>
+                <h4 id="est-scope-title" style="margin-top:8px;">Identitas Visual & Brand Guidelines</h4>
+                <p>Estimasi transparan tanpa biaya tersembunyi.</p>
+              </div>
+
+              <div class="est-price-box">
+                <span class="est-price-label">Kisaran Nilai Investasi</span>
+                <div id="est-price-display" class="est-price-value">Rp 15.000.000 - 28.000.000</div>
+                <div id="est-term-display" class="est-price-term">Estimasi Investasi Proyek Berbasis Kontrak</div>
+              </div>
+
+              <div id="est-features-container" class="est-features-list">
+                <!-- Rendered dynamically via JS -->
+              </div>
+
+              <button class="btn btn-primary" onclick="applyEstimateToForm()" data-i18n="estimator.calculateBtn">
+                Gunakan Estimasi Ini di Formulir
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         TRANSPARENT BUSINESS MODEL CANVAS (BMC BLUEPRINT MATRIX)
+         Interactive reproduction of the 9 BMC blocks from the Canva link!
+         ========================================================================== -->
+    <section id="bmc" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge" data-i18n="bmc.badge">Tata Kelola Studio</span>
+          <h2 class="section-title" data-i18n="bmc.title">Cetak Biru Model Bisnis Transparan (BMC)</h2>
+          <p class="section-subtitle" data-i18n="bmc.subtitle">
+            Transparansi penuh: 9 blok strategis bagaimana Elaris Creative Studio beroperasi, menciptakan nilai, dan berkolaborasi dengan mitra.
+          </p>
+        </div>
+
+        <div class="bmc-interactive-preview">
+          <!-- 9-Box BMC Grid Layout -->
+          <div class="bmc-grid-canvas">
+            <!-- 1. Key Partners -->
+            <div class="bmc-block bmc-row-span-2" data-bmc="keyPartners">
+              <div class="bmc-block-header">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                <h5>Key Partners</h5>
+              </div>
+              <div class="bmc-block-content">
+                • Agensi Iklan & Marketing (media buying & data performa ads)<br/>
+                • Jasa Pengantar / Logistik (uji ketahanan fisik kemasan)<br/>
+                • Mitra Percetakan Spesialis
+              </div>
+            </div>
+
+            <!-- 2. Key Activities -->
+            <div class="bmc-block" data-bmc="keyActivities">
+              <div class="bmc-block-header">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+                <h5>Key Activities</h5>
+              </div>
+              <div class="bmc-block-content">
+                • Riset & Konsep Kreatif<br/>
+                • Proses Desain & UI/UX<br/>
+                • Revisi Terstruktur & QC
+              </div>
+            </div>
+
+            <!-- 3. Value Propositions -->
+            <div class="bmc-block bmc-row-span-2" data-bmc="valuePropositions">
+              <div class="bmc-block-header">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <h5>Value Propositions</h5>
+              </div>
+              <div class="bmc-block-content">
+                • <strong>Desain Kustom & Berkarakter</strong> (Bukan template)<br/>
+                • <strong>Proses Cepat & Tepat Waktu</strong> (Sprint deadline)<br/>
+                • <strong>Revisi Transparan & Terkontrol</strong> (QC ketat)<br/>
+                • <strong>Format File Lengkap & Siap Pakai</strong> (AI/Figma/CMYK)
+              </div>
+            </div>
+
+            <!-- 4. Customer Relationships -->
+            <div class="bmc-block" data-bmc="customerRelationships">
+              <div class="bmc-block-header">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                <h5>Customer Relationships</h5>
+              </div>
+              <div class="bmc-block-content">
+                • Dedicated Account Manager<br/>
+                • Workflow Kolaboratif (Notion/Slack)<br/>
+                • Retainer Agreement Jangka Panjang
+              </div>
+            </div>
+
+            <!-- 5. Customer Segments -->
+            <div class="bmc-block bmc-row-span-2" data-bmc="customerSegments">
+              <div class="bmc-block-header">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                <h5>Customer Segments</h5>
+              </div>
+              <div class="bmc-block-content">
+                • UMKM & Startup (Branding kit)<br/>
+                • Perusahaan / Korporat B2B (Rebrand)<br/>
+                • Brand Owner (Packaging & promo)<br/>
+                • Individu / Content Creator
+              </div>
+            </div>
+
+            <!-- 6. Key Resources -->
+            <div class="bmc-block" data-bmc="keyResources">
+              <div class="bmc-block-header">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                <h5>Key Resources</h5>
+              </div>
+              <div class="bmc-block-content">
+                • Creative / Art Director & Strategist<br/>
+                • Graphic, Motion & Packaging Designers<br/>
+                • Workstation & Software (Adobe, Figma)
+              </div>
+            </div>
+
+            <!-- 7. Channels -->
+            <div class="bmc-block" data-bmc="channels">
+              <div class="bmc-block-header">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+                <h5>Channels</h5>
+              </div>
+              <div class="bmc-block-content">
+                • Direct B2B Pitching<br/>
+                • Co-Marketing & Cross-Referral<br/>
+                • Digital Portfolio (Web, IG, Behance)<br/>
+                • Bundling Packages bersama Mitra
+              </div>
+            </div>
+
+            <!-- 8. Cost Structure -->
+            <div class="bmc-block bmc-col-span-2" data-bmc="costStructure">
+              <div class="bmc-block-header">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+                <h5>Cost Structure</h5>
+              </div>
+              <div class="bmc-block-content">
+                • Gaji Tim Kreatif & Operasional SDM<br/>
+                • Lisensi Perangkat Lunak (Adobe CC, Figma) & Hardware<br/>
+                • Biaya Iklan Meta Ads/Google Ads & Portfolio Showcase<br/>
+                • Biaya Umum & Administrasi ke Induk (PT Elaris Indonesia)
+              </div>
+            </div>
+
+            <!-- 9. Revenue Streams -->
+            <div class="bmc-block bmc-col-span-3" data-bmc="revenueStreams">
+              <div class="bmc-block-header">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                <h5>Revenue Streams</h5>
+              </div>
+              <div class="bmc-block-content">
+                • <strong>Proyek Berbasis Kontrak</strong>: Pembuatan Logo, Brand Kit, UI/UX, dan Kemasan<br/>
+                • <strong>Layanan Langganan Bulanan (Retainer Fee)</strong>: Kontrak materi rutin harian<br/>
+                • <strong>Konsultasi Desain & Branding</strong>: Sesi konsultasi & audit strategi visual<br/>
+                • <strong>Komisi Eksekusi Cetak</strong>: Printing management margin bersama percetakan
+              </div>
+            </div>
+          </div>
+
+          <div style="text-align:center;">
+            <p style="font-size:0.85rem; color:var(--text-dim); margin-bottom:12px;">Klik blok mana saja di atas untuk melihat detail operasional & tata kelola kami.</p>
+            <button class="btn btn-outline btn-sm" onclick="openBMCModal('valuePropositions')">
+              Buka Detail Kanvas Strategis
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         TESTIMONIALS & SOCIAL PROOF
+         ========================================================================== -->
+    <section class="section" style="padding-top: 0;">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-badge">Pengalaman Klien</span>
+          <h2 class="section-title">Dipercaya oleh Pemimpin Industri & Founder Ambisius</h2>
+          <p class="section-subtitle">
+            Kisah nyata dari mitra dan klien yang telah berkolaborasi membangun nilai brand bersama Elaris.
+          </p>
+        </div>
+
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <p class="testimonial-quote">
+              "Elaris bukan agensi yang sekadar memberi template. Mereka meriset pasar kosmetik kami secara menyeluruh. Dieline kemasan baru kami bahkan langsung lolos uji kirim logistik tanpa cacat."
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">LB</div>
+              <div class="author-info">
+                <h5>Sarah Danuarta</h5>
+                <p>Founder, Lumina Botanicals</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <p class="testimonial-quote">
+              "Skema retainer bulanan bersama Elaris mempercepat eksekusi campaign kami 3x lipat. Alur Notion dan Slack mereka luar biasa transparan, seperti memiliki internal design pod sendiri."
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">KM</div>
+              <div class="author-info">
+                <h5>Reza Pratama</h5>
+                <p>Head of Growth, Kura Media Network</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <p class="testimonial-quote">
+              "Rebranding korporat untuk 14 anak cabang logistik kami tuntas tepat waktu sesuai jadwal tender. Standar Quality Control mereka sangat terdisiplin dan source files yang diserahkan rapi luar biasa."
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">NE</div>
+              <div class="author-info">
+                <h5>Bambang Soedirjo</h5>
+                <p>Operations Director, PT Nexa Logistik</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         PROJECT BRIEF & CONTACT INQUIRY SECTION
+         ========================================================================== -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="contact-grid">
+          <!-- Contact Meta Column -->
+          <div class="contact-meta">
+            <div class="contact-card-info">
+              <span class="section-badge" data-i18n="contact.badge">Kolaborasi Bersama Kami</span>
+              <h2 class="section-title" data-i18n="contact.title">Mari Wujudkan Karya yang Berdampak</h2>
+              <p data-i18n="contact.subtitle">
+                Ceritakan visi brand Anda. Creative Director dan tim strategi Elaris akan meninjau brief Anda dalam 24 jam kerja.
+              </p>
+
+              <div class="contact-methods">
+                <div class="method-row">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                  <span>project@elariscreative.com</span>
+                </div>
+                <div class="method-row">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                  <span>+62 (021) 8892-0190</span>
+                </div>
+                <div class="method-row">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  <span>PT Elaris Indonesia • Studio Jakarta & Surabaya</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Guarantee Box -->
+            <div style="background:var(--bg-secondary); border:1px solid var(--border-subtle); border-radius:var(--radius-md); padding:24px;">
+              <h5 style="font-size:0.9rem; color:var(--accent-gold); margin-bottom:8px;">Jaminan Studio Elaris</h5>
+              <p style="font-size:0.85rem; color:var(--text-muted); line-height:1.6;">
+                Seluruh proyek terikat kesepakatan tertulis (kontrak kerja resmi PT Elaris Indonesia) dengan garansi kepemilikan hak cipta aset 100% dan penyerahan berkas master lengkap tanpa terkunci.
+              </p>
+            </div>
+          </div>
+
+          <!-- Contact Form Card -->
+          <div class="contact-form-card">
+            <form id="project-brief-form">
+              <div class="form-group-row">
+                <div class="form-field">
+                  <label for="contact-name" data-i18n="contact.nameLabel">Nama Lengkap *</label>
+                  <input id="contact-name" type="text" class="form-input" placeholder="contoh: Kevin Sanjaya" required>
+                </div>
+                <div class="form-field">
+                  <label for="contact-email" data-i18n="contact.emailLabel">Alamat Email Bisnis *</label>
+                  <input id="contact-email" type="email" class="form-input" placeholder="kevin@perusahaan.com" required>
+                </div>
+              </div>
+
+              <div class="form-group-row">
+                <div class="form-field">
+                  <label for="contact-company" data-i18n="contact.companyLabel">Nama Brand / Perusahaan</label>
+                  <input id="contact-company" type="text" class="form-input" placeholder="PT / Brand Anda">
+                </div>
+                <div class="form-field">
+                  <label for="contact-service" data-i18n="contact.serviceLabel">Layanan yang Dibutuhkan</label>
+                  <select id="contact-service" class="form-select">
+                    <option value="brand-identity">Identitas Brand & Guidelines</option>
+                    <option value="uiux-design">UI/UX Web & Aplikasi Digital</option>
+                    <option value="packaging">Desain Kemasan Taktil & Dieline</option>
+                    <option value="rebranding">Rebranding Korporat Menyeluruh</option>
+                    <option value="retainer">Langganan Bulanan (Retainer Kreatif)</option>
+                    <option value="audit">Konsultasi Desain & Audit Branding</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-field">
+                <label for="contact-budget" data-i18n="contact.budgetLabel">Kisaran Anggaran Investasi</label>
+                <select id="contact-budget" class="form-select">
+                  <option value="idr-15-30m">IDR 15jt - 30jt (Startup / Launch Kit)</option>
+                  <option value="idr-30-60m">IDR 30jt - 60jt (Growth / Multi-touchpoint)</option>
+                  <option value="idr-60m-plus">IDR 60jt+ (Enterprise Rebrand / Custom Suite)</option>
+                  <option value="retainer-monthly">Retainer Bulanan (Mulai IDR 12jt/bln)</option>
+                </select>
+              </div>
+
+              <div class="form-field">
+                <label for="contact-message" data-i18n="contact.messageLabel">Penjelasan Kebutuhan & Target Proyek *</label>
+                <textarea id="contact-message" class="form-textarea" placeholder="Jelaskan tantangan bisnis Anda, target audiens, serta ekspektasi waktu peluncuran..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width:100%; margin-top:8px;" data-i18n="contact.submitBtn">
+                Kirim Brief Kreatif
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       SITE FOOTER
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="brand-logo">
+            <div class="brand-symbol">E</div>
+            <div class="brand-text">
+              <span class="brand-name">ELARIS</span>
+              <span class="brand-sub">Creative Studio</span>
+            </div>
+          </div>
+          <p>
+            Studio desain independen di bawah naungan PT Elaris Indonesia. Menghadirkan solusi visual kustom, UI/UX berstandar global, dan kemasan berkarakter kuat tanpa template generik.
+          </p>
+          <div style="font-size: 0.8rem; color: var(--text-dim);">
+            Induk Perusahaan: <strong>PT Elaris Indonesia</strong><br/>
+            Studio Design System V2.6
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h5>Layanan Kunci</h5>
+          <div class="footer-links">
+            <a href="#services">Identitas Visual & Brand Kit</a>
+            <a href="#services">UI/UX & Desain Web Figma</a>
+            <a href="#services">Kemasan Taktil & Pola Dieline</a>
+            <a href="#services">Retainer Kreatif Bulanan</a>
+            <a href="#services">Supervisi Cetak & Quality Control</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h5>Solusi Segmen</h5>
+          <div class="footer-links">
+            <a href="#solutions">UMKM & Startup Launchpad</a>
+            <a href="#solutions">Korporat B2B & Rebranding</a>
+            <a href="#solutions">Brand Owners & FMCG</a>
+            <a href="#solutions">Kreator & Personal Branding</a>
+            <a href="#bmc">Cetak Biru Model Bisnis (BMC)</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h5>Kanal & Portofolio</h5>
+          <div class="footer-links">
+            <a href="#portfolio">Portofolio Behance</a>
+            <a href="#portfolio">Studi Kasus Figma</a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn Resmi Elaris</a>
+            <a href="https://instagram.com" target="_blank" rel="noopener">Instagram Studio</a>
+            <a href="#contact">Mulai Konsultasi Singkat</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 Elaris Creative Studio (PT Elaris Indonesia). Hak Cipta Dilindungi Undang-Undang.
+        </div>
+        <div>
+          Bespoke UI/UX Architecture • Designed with Precision
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       MODAL DIALOGS
+       ========================================================================== -->
+  <!-- 1. Portfolio Case Study Modal -->
+  <div id="portfolio-modal" class="modal-overlay" role="dialog" aria-modal="true">
+    <div class="modal-container">
+      <button class="modal-close-btn" onclick="closeModal('portfolio-modal')" aria-label="Close modal">✕</button>
+      <div id="portfolio-modal-content"></div>
+    </div>
+  </div>
+
+  <!-- 2. BMC Full Blueprint Inspector Modal -->
+  <div id="bmc-modal" class="modal-overlay" role="dialog" aria-modal="true">
+    <div class="modal-container">
+      <button class="modal-close-btn" onclick="closeModal('bmc-modal')" aria-label="Close modal">✕</button>
+      <div id="bmc-modal-content"></div>
+    </div>
+  </div>
+
+  <!-- 3. Brief Inquiry Success Confirmation Modal -->
+  <div id="inquiry-success-modal" class="modal-overlay" role="dialog" aria-modal="true">
+    <div class="modal-container" style="max-width: 580px; text-align: center;">
+      <button class="modal-close-btn" onclick="closeModal('inquiry-success-modal')" aria-label="Close modal">✕</button>
+      <div style="width:60px; height:60px; border-radius:50%; background:var(--accent-gold-soft); color:var(--accent-gold); display:flex; align-items:center; justify-content:center; margin: 0 auto 18px; font-size:1.8rem; border:1px solid var(--border-accent);">
+        ✓
+      </div>
+      <h3 style="font-family:var(--font-serif); font-size:1.8rem; margin-bottom:8px;">Brief Kreatif Berhasil Diterima</h3>
+      <p style="color:var(--text-muted); font-size:0.95rem; line-height:1.6; margin-bottom:20px;">
+        Terima kasih telah mempercayakan visi Anda kepada Elaris Creative Studio. Tim Art Director dan Project Manager kami akan mereview brief ini dan menghubungi Anda dalam 24 jam kerja.
+      </p>
+
+      <div id="inquiry-summary-box" style="text-align:left; background:var(--bg-secondary); border:1px solid var(--border-subtle); border-radius:var(--radius-sm); padding:16px; margin-bottom:24px; font-size:0.9rem;">
+        <!-- Rendered via JS -->
+      </div>
+
+      <button class="btn btn-primary" onclick="closeModal('inquiry-success-modal')">
+        Tutup & Kembali ke Website
+      </button>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast-notice" class="toast-notice" role="alert">
+    <span style="color:var(--accent-gold); font-size:1.1rem;">✦</span>
+    <span id="toast-text">Pemberitahuan</span>
+  </div>
+
+  <!-- Application Script -->
+  <script src="js/app.js"></script>
+</body>
+</html>
