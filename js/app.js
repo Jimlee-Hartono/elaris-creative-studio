@@ -516,7 +516,7 @@ window.openPortfolioModal = function(id) {
     
     <div style="background: ${item.visualGradient}; height: 260px; border-radius: var(--radius-md); display:flex; align-items:center; justify-content:center; margin-bottom: 24px; position:relative;">
       <span style="font-size: 5rem;">${item.icon}</span>
-      <div style="position:absolute; bottom: 16px; right: 16px; background: rgba(0,0,0,0.6); padding: 8px 14px; border-radius: var(--radius-sm); font-size: 0.85rem; font-weight: 700; color: var(--accent-gold);">
+      <div style="position:absolute; bottom: 16px; right: 16px; background: rgba(0,0,0,0.65); padding: 8px 14px; border-radius: var(--radius-sm); font-size: 0.85rem; font-weight: 700; color: var(--accent-yellow); border: 1px solid rgba(251, 191, 36, 0.4);">
         Impact: ${item.metrics}
       </div>
     </div>
@@ -528,7 +528,7 @@ window.openPortfolioModal = function(id) {
         <p style="color: var(--text-muted); line-height: 1.7; font-size: 0.95rem;">Following Elaris's core principles, every asset was tailored from foundational sketches to production-ready deliverables with strict quality controls.</p>
       </div>
       <div style="background: var(--bg-secondary); padding: 20px; border-radius: var(--radius-sm); border: 1px solid var(--border-subtle);">
-        <h5 style="font-size: 0.85rem; text-transform:uppercase; letter-spacing:0.05em; color: var(--accent-gold); margin-bottom: 12px;">Deliverables Handover</h5>
+        <h5 style="font-size: 0.85rem; text-transform:uppercase; letter-spacing:0.05em; color: var(--accent-blue); margin-bottom: 12px;">Deliverables Handover</h5>
         <ul style="display:flex; flex-direction:column; gap:8px; font-size: 0.85rem; color: var(--text-muted);">
           <li>✓ Master Vector AI & EPS Source</li>
           <li>✓ Figma Design Tokens & Component Library</li>
@@ -835,11 +835,11 @@ window.openBMCModal = function(key) {
     <p style="color: var(--text-muted); font-size: 1rem; margin-bottom: 24px;">Core strategic operational building block of Elaris Creative Studio (PT Elaris Indonesia).</p>
 
     <div style="background: var(--bg-secondary); border: 1px solid var(--border-medium); border-radius: var(--radius-md); padding: 24px; margin-bottom: 24px;">
-      <h4 style="font-size: 1rem; color: var(--accent-gold); margin-bottom: 14px; text-transform:uppercase; letter-spacing:0.05em;">Strategic Breakdown</h4>
+      <h4 style="font-size: 1rem; color: var(--accent-yellow); margin-bottom: 14px; text-transform:uppercase; letter-spacing:0.05em;">Strategic Breakdown</h4>
       <ul style="display:flex; flex-direction:column; gap: 14px;">
         ${data.points.map(p => `
           <li style="display:flex; align-items:flex-start; gap: 10px; font-size: 0.95rem; line-height: 1.6; color: var(--text-main);">
-            <span style="color: var(--accent-gold); font-size: 1.2rem; line-height: 1;">▪</span>
+            <span style="color: var(--accent-pink); font-size: 1.2rem; line-height: 1;">▪</span>
             <div>${p}</div>
           </li>
         `).join('')}
