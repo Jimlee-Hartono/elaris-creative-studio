@@ -313,7 +313,7 @@ const BMC_DATA = {
 // --- App State ---
 const State = {
   lang: localStorage.getItem("elaris_lang") || "id",
-  theme: localStorage.getItem("elaris_theme") || "dark",
+  theme: localStorage.getItem("elaris_theme") || "light",
   estimator: {
     model: "project", // "project" or "retainer"
     service: "brand-identity",
